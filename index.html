@@ -1,0 +1,66 @@
+<html>
+    <head>
+       <title>My Selfie Collage Making Webpage</title>
+ <meta name="viewport" content="width=device-width, initial-scale=1">
+<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.0/css/bootstrap.min.css">
+<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.4.1/jquery.min.js"></script>
+<script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.0/js/bootstrap.min.js"></script>
+
+<script src="https://cdnjs.cloudflare.com/ajax/libs/webcamjs/1.0.26/webcam.min.js"></script>
+
+<link href="style.css" rel="stylesheet">
+
+</head>
+ 
+<body>
+    <div class="container">
+    <center>
+
+        
+<div class="container" style="background-color:lightsalmon; border-radius: 20px; border-style: ridge; max-width: 1000%;">
+     <a href="" id="link" download="mypicture.png"> </a>
+        <h1>Voice Selfie App 
+<img src="https://thumbs.dreamstime.com/z/take-selfie-poster-vintage-motivation-hand-lettering-46883444.jpg" id="logo_img">
+        </h1>
+        <hr>
+        <h4 style="color:red;">Please press allow as soon as popup comes. After you give a voice command</h4>
+        <h4 style="color:red;"><strong><b>And look back up to see your images in a collage!</b></strong></h4>
+        <div class="form-group">
+            <h3>Say "take my selfie"</h3>
+            <label>Your voice output : </label>
+<textarea class="form-control" id="text-box" readonly="true"></textarea>
+        </div>
+        <button class="btn btn-success" onclick="start()">Start</button>
+        <p>Press the Start button</p>
+        <label>Your webcam : </label>
+<div id="camera"></div>
+        <br>
+
+        <label>Your Picture Will Display Here: </label>
+        <div id="result_div" style="margin-bottom: 10px;"></div>
+        
+    </div>
+    
+    </center>
+    <center>
+    <h1 style="background-color: lightsalmon;">Here is your collage! Hover on us!</h1>
+            <div class="row">
+                <div id="result1" class="column">
+                    <img src="">
+                </div>
+    
+                <div id="result2" class="column">
+                    <img src="">
+                </div>
+    
+                <div id="result3" class="column">
+                    <img src="">
+                </div>
+                </div>
+
+    </div>
+</center>
+<div id="div1" class="copy_right_footer"><h1>Developed By Kyra</h1></div>
+    <script src="main.js"></script>
+</body>
+</html>

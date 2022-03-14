@@ -1,0 +1,119 @@
+#start-btn
+{
+    width: 40%;
+} 
+#camera
+{
+    width:360px;
+    height: 250px;
+    border:1px solid grey;
+}
+#logo_img
+{
+    width: 150px;
+    border-radius: 100px;
+}
+#textbox
+{
+    width: 300px;
+}
+body{
+   background-image: url('https://img.freepik.com/free-photo/vintage-camera-yellow-background-with-copy-space-world-photography-day-concept_101840-674.jpg?size=626&ext=jpg');
+   background-size: cover;
+}
+#img1:hover{
+   border-radius: 30px;
+   max-height: 900px;
+   max-width: 1000px;
+   border-style: ridge;
+   border-width: 2px;
+   padding:10px;
+   border-color: darkgray;
+   background-image: url('https://thumbs.dreamstime.com/z/take-selfie-poster-vintage-motivation-hand-lettering-46883444.jpg');
+}
+#img2:hover{
+    border-radius: 30px;
+    max-height: 900px;
+    max-width: 1000px;
+    border-style: ridge;
+    border-width: 2px;
+    padding:10px;
+    border-color: darkgray;
+    background-image: url('https://thumbs.dreamstime.com/z/take-selfie-poster-vintage-motivation-hand-lettering-46883444.jpg');
+ }
+ #img3:hover{
+    border-radius: 30px;
+    max-height: 900px;
+    max-width: 1000px;
+    border-style: ridge;
+    border-width: 2px;
+    padding:10px;
+    border-color: darkgray;
+    background-image: url('https://thumbs.dreamstime.com/z/take-selfie-poster-vintage-motivation-hand-lettering-46883444.jpg');
+ }
+ h1{
+    font-family: 'Courier New', Courier, monospace; 
+ }
+ h3, div, label{
+    font-family: 'Courier New', Courier, monospace; 
+ }
+.copy_right_footer{
+    width:100%;
+    bottom:0;
+    text-align: center;
+    margin-top: 30px;
+    background-color: lightgray;
+}
+.modal {
+  display: none; /* Hidden by default */
+  position: fixed; /* Stay in place */
+  z-index: 1; /* Sit on top */
+  padding-top: 100px; /* Location of the box */
+  left: 0;
+  top: 0;
+  width: 100%; /* Full width */
+  height: 100%; /* Full height */
+  overflow: auto; /* Enable scroll if needed */
+  background-color: rgb(0,0,0); /* Fallback color */
+  background-color: rgba(0,0,0,0.4); /* Black w/ opacity */
+}
+
+/* Modal Content */
+.modal-content {
+  background-color: #fefefe;
+  margin: auto;
+  padding: 20px;
+  border: 1px solid #888;
+  width: 80%;
+}
+
+/* The Close Button */
+.close {
+  color: #aaaaaa;
+  float: right;
+  font-size: 28px;
+  font-weight: bold;
+}
+
+.close:hover,
+.close:focus {
+  color: #000;
+  text-decoration: none;
+  cursor: pointer;
+}
+img
+{
+    width: 37%;
+    border-radius: 4px;
+    padding: 10px;
+    box-shadow: 0 6px 8px 0 rgba(2, 2, 2, 0.2);
+}
+
+.column
+{
+    display: inline;
+    padding: 10px;
+}
+img:hover{
+    border-radius: 140px;
+}
